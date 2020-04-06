@@ -1,0 +1,14 @@
+{
+"type": "record",
+"name": "cdrs",
+"fields": [
+   { "name": "imsi", "type": "string" },
+   { "name": "accessPointNameNI", "type":["null","string"],"default": "null"},
+   { "name": "servedPDPPDNAddress", "type":["null","string"],"default": "null"},
+   { "name": "causeForRecClosing", "type":["null","string"],"default": "null"},
+   { "name": "servedMSISDN", "type":["null","string"],"default": "null"},
+   { "name": "chargingCharacteristics", "type":["null","string"],"default": "null"},
+   { "name": "recordStartTime", "type":["null","string"],"default": "null"},
+   { "name": "billing", "type":["null","string"],"default": "null"}
+  ]
+}
